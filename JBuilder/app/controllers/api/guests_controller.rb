@@ -1,3 +1,5 @@
+require 'byebug'
+
 class Api::GuestsController < ApplicationController
   def index
     @guests = Guest.all
